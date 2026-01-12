@@ -1,0 +1,13 @@
+CREATE OR REPLACE NONEDITIONABLE PROCEDURE "DEMO"."PROCEDURE_1" (in_col_name varchar2)  is
+-- PGV moved types start
+
+-- PGV moved types end
+
+ out_val1 varchar(35);
+BEGIN
+EXECUTE IMMEDIATE 'CREATE TABLE scheme (id NUMBER, amt NUMBER)';
+EXECUTE IMMEDIATE 'SELECT MAX(' || in_col_name || ') FROM EMP' INTO out_val1;
+EXECUTE IMMEDIATE 'SELECT * FROM DUAL ';
+EXECUTE IMMEDIATE 'SELECT SYSDATE FROM DUAL ';
+END;
+/

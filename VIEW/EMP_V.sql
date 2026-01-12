@@ -1,0 +1,3 @@
+CREATE OR REPLACE FORCE NONEDITIONABLE VIEW "DEMO"."EMP_V" ("EMPNO", "ENAME", "DEPTNO") AS 
+  SELECT empno, ename, deptno
+        FROM emp;

@@ -1,0 +1,6 @@
+CREATE OR REPLACE NONEDITIONABLE TYPE "DEMO"."PHONE_LIST_TYP" AS OBJECT (
+  phnum number(10),
+   code CHAR(30));
+
+
+/

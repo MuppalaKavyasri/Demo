@@ -1,0 +1,4 @@
+CREATE TABLE "DEMO"."TQ84_EXEC_IMM" 
+   (	"A" NUMBER, 
+	"B" NUMBER
+   ) ;
