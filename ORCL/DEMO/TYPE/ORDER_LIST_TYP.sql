@@ -1,0 +1,6 @@
+CREATE OR REPLACE NONEDITIONABLE TYPE "DEMO"."ORDER_LIST_TYP" AS OBJECT (
+  orderno number(10),
+   item CHAR(30));
+
+
+/

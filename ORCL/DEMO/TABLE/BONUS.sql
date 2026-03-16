@@ -1,0 +1,4 @@
+CREATE TABLE "DEMO"."BONUS" 
+   (	"ID" NUMBER, 
+	"AMT" NUMBER
+   ) ;

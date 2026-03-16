@@ -1,0 +1,7 @@
+CREATE OR REPLACE NONEDITIONABLE TYPE "DEMO"."DEPARTMENT_T" AS OBJECT (
+   deptno number(10),
+   dname CHAR(30));
+
+
+
+/

@@ -1,0 +1,5 @@
+CREATE TABLE "DEMO"."UROWI" 
+   (	"A" UROWID (15), 
+	"COLUMN1" VARCHAR2(20), 
+	"C" NUMBER(*,0)
+   ) ;

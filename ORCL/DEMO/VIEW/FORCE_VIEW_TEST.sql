@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE NONEDITIONABLE VIEW "DEMO"."FORCE_VIEW_TEST" ("C1", "C2", "C3", "C4") AS 
+  SELECT c1, c2, c3, c4 FROM demo.force_view_test1;

@@ -1,0 +1,4 @@
+CREATE TABLE "DEMO"."TEST2" 
+   (	"ID" NUMBER, 
+	"NAME1" VARCHAR2(20)
+   ) ;

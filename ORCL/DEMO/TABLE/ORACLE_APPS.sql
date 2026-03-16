@@ -1,0 +1,4 @@
+CREATE TABLE "DEMO"."ORACLE_APPS" 
+   (	"A" NUMBER, 
+	"B" NUMBER
+   ) ;

@@ -1,0 +1,5 @@
+CREATE TABLE "DEMO"."TEST_1" 
+   (	"C1" NUMBER, 
+	"C2" DATE, 
+	"C3" VARCHAR2(100)
+   ) ;
