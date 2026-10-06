@@ -1,0 +1,9 @@
+-- dmap_object_gen_tag : type : index name : se_start_date_fcn
+set search_path = yoda,oracle,dmap_extension,public;
+create index se_start_date_fcn on sporting_event (trunc(start_date_time));
+CREATE INDEX "YODA"."SE_START_DATE_FCN" ON "YODA"."SPORTING_EVENT" (TRUNC("START_DATE_TIME")) 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
