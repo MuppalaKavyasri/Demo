@@ -1,0 +1,9 @@
+CREATE OR REPLACE EDITIONABLE TRIGGER "YODA"."TRG_EMP" 
+  BEFORE INSERT
+  on  employees
+  for each row
+begin
+   SELECT employees_id_seq.NEXTVAL INTO :new.id FROM DUAL;
+END;
+/
+ALTER TRIGGER "YODA"."TRG_EMP" ENABLE;

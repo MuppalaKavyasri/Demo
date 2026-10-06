@@ -1,0 +1,9 @@
+CREATE OR REPLACE EDITIONABLE TRIGGER "YODA"."TRG_EMPAUDIT" 
+  BEFORE INSERT
+  on  employee_audits
+  for each row
+begin
+   SELECT employee_audits_id.NEXTVAL INTO :new.id FROM DUAL;
+END;
+/
+ALTER TRIGGER "YODA"."TRG_EMPAUDIT" ENABLE;

@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX "YODA"."BAR_PK" ON "YODA"."BAR" ("FOO", "BAR") 
+  ;
